@@ -1,38 +1,64 @@
-.App {
-  text-align: center;
+.container {
+  max-width: 960px;
+  margin: 0 auto;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+header {
+  border-bottom: 2px solid #ccc;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+nav ul{
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  flex-direction: row;
+  list-style: none;
+  margin: 0;
+  padding-left: 0;
 }
 
-.App-link {
-  color: #61dafb;
+nav ul li {
+  margin-right: 10px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+nav ul li a {
+  text-decoration: none;
+}
+
+header {
+  padding: 2rem 0;
+}
+
+.mainWrapper {
+  padding: 1.5rem 0;
+}
+
+h1.pageTitle {
+  margin-bottom: 1.5rem;
+  font-size: 3.5rem;
+  line-height: 4rem;
+}
+
+.mainWrapper h1 {
+  margin: 0;
+}
+
+.postsWrapper {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.5rem;
+  margin-top: 2rem;
+}
+
+/* .postsWrapper .post {
+
+} */
+
+.postsWrapper .post p{
+  font-weight: 500;
+  margin: 1rem;
+}
+
+.pagination {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
 }
