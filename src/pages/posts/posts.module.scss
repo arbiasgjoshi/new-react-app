@@ -1,0 +1,65 @@
+.pageTitle {
+    font-size: 34px;
+    line-height: 40px;
+    font-family: "Inter", sans-serif;
+    font-weight: 500;
+    margin-bottom: 30px;
+    padding-bottom: 10px;
+    border-bottom: 2px solid;
+    display: inline-flex;
+}
+
+.filtersWrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    input[type=text],
+    select {
+        width: 32%;
+        font-size: 16px;
+        font-family: "Inter", sans-serif;
+        font-weight: 500;
+    }
+
+    input[type=text] {
+        padding: 1rem;
+        border: 0;
+        border-bottom: 2px solid #ccc;
+    }
+
+    select {
+        border: 0;
+        border-bottom: 2px solid #ccc;
+    }
+}
+
+.pagination {
+    display: flex;
+    flex-direction: row;
+
+    li {
+        margin-right: 1.5rem;
+
+        &:last-child {
+            margin-right: 0;
+        }
+        button {
+            background-color: #fff;
+            padding: 1rem 2rem;
+            border-radius: 0.5rem;
+            border: 1px solid #ccc;
+
+            &:hover {
+                cursor: pointer;   
+                background-color: #ccc;
+                color: #fff;
+            }
+
+            &.activeItem {
+                background-color: rgb(134, 202, 185);
+                color: #fff;
+            }
+        }
+    }
+}
