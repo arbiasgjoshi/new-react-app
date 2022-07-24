@@ -12,14 +12,11 @@ const Homepage = () => {
   return (
     <div className={mainStyles.mainWrapper}>
       <div className="container">
-        <h1>Home Page Rendered</h1>
-
-        
         <div className={styles.groupedItems}>
           <LeftNav changeSection={(value) => setSection(value)} />
           <SectionTabs activeSection={section} />
         </div>
-      </div>
+      </div>   
     </div>
   );
 };
