@@ -1,0 +1,68 @@
+{
+    "workbench.iconTheme": "material-icon-theme",
+    "todo-tree.tree.showScanModeButton": false,
+    "editor.fontFamily": "Operator Mono Lig, Menlo, Monaco, 'Courier New', monospace",
+    "git.autofetch": true,
+    "[javascript]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "editor.semanticHighlighting.enabled": true,
+    "workbench.colorTheme": "One Dark Pro Darker",
+    "git.enableSmartCommit": true,
+    "[html]": {
+      "editor.defaultFormatter": "vscode.html-language-features"
+    },
+    "terminal.integrated.shell.osx": "/bin/bash",
+    "[vue]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[jsonc]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[json]": {
+      "editor.defaultFormatter": "vscode.json-language-features"
+    },
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    "vs-kubernetes": {
+      "vs-kubernetes.minikube-path.mac": "/Users/apple/.vs-kubernetes/tools/minikube/darwin-amd64/minikube",
+      "vs-kubernetes.helm-path.mac": "/Users/apple/.vs-kubernetes/tools/helm/darwin-amd64/helm",
+      "vs-kubernetes.draft-path.mac": "/Users/apple/.vs-kubernetes/tools/draft/darwin-amd64/draft"
+    },
+    "[typescript]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "editor.formatOnPaste": false,
+    "editor.formatOnType": false,
+    "gitlens.advanced.messages": {
+      "suppressFileNotUnderSourceControlWarning": true
+    },
+    "explorer.confirmDragAndDrop": false,
+    "explorer.confirmDelete": false,
+    "workbench.startupEditor": "none",
+    "diffEditor.ignoreTrimWhitespace": false,
+    "diffEditor.wordWrap": "on",
+    "editor.wordWrap": "on",
+    "git.confirmSync": false,
+    "redhat.telemetry.enabled": false,
+    "eslint.format.enable": true,
+    "editor.formatOnSave": false,
+    "prettier.endOfLine": "auto",
+    "tabnine.experimentalAutoImports": true,
+    "bracket-pair-colorizer-2.depreciation-notice": false,
+    "[scss]": {
+      "editor.defaultFormatter": "HookyQR.beautify"
+    },
+    "[javascriptreact]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "window.zoomLevel": 2,
+    "gitlens.defaultDateLocale": null,
+    "editor.inlineSuggest.enabled": true,
+    "github.copilot.enable": {
+      "*": true,
+      "yaml": true,
+      "plaintext": false,
+      "markdown": false
+    }
+  }
+  
