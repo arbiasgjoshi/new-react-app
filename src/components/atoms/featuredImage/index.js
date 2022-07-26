@@ -26,7 +26,6 @@ const ImageComponent = ({ featuredImage }) => {
       return;
       <img src={SaintSeiyaImage} width="100" height="100" alt="Saint Seiya" />;
     }
-    return <p>Image</p>;
   };
 
   return (
