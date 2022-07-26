@@ -23,8 +23,9 @@ const ImageComponent = ({ featuredImage }) => {
       return <img src={NarutoImage} width="100" height="100" alt="Naruto" />;
     }
     if (img === 4) {
-      return;
-      <img src={SaintSeiyaImage} width="100" height="100" alt="Saint Seiya" />;
+      return (
+        <img src={SaintSeiyaImage} width="100" height="100" alt="Saint Seiya" />
+      );
     }
   };
 
