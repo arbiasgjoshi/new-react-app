@@ -5,6 +5,7 @@ import styles from "./image.module.scss";
 import MarvelImage from "./../../../images/marvel.jpeg";
 import DcImage from "./../../../images/dc.avif";
 import NarutoImage from "./../../../images/naruto.png";
+import SaintSeiyaImage from "./../../../images/saintseiya.jpg";
 
 const ImageComponent = ({ featuredImage }) => {
   // const [image, setImage] = useState(0);
@@ -20,6 +21,10 @@ const ImageComponent = ({ featuredImage }) => {
     }
     if (img === 3) {
       return <img src={NarutoImage} width="100" height="100" alt="Naruto" />;
+    }
+    if (img === 4) {
+      return;
+      <img src={SaintSeiyaImage} width="100" height="100" alt="Saint Seiya" />;
     }
     return <p>Image</p>;
   };
