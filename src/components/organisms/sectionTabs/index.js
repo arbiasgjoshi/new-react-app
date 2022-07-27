@@ -70,40 +70,71 @@ const SectionTabs = ({ activeSection }) => {
       case 3:
         return (
           <div className={styles.sectionWrapper}>
-            <h1>Invictus</h1>
+            <h1>Naruto</h1>
             <p>
-              Vel eros donec ac odio tempor orci. Placerat orci nulla
-              pellentesque dignissim enim sit amet venenatis. Magna ac placerat
-              vestibulum lectus mauris ultrices eros in cursus. Adipiscing elit
-              ut aliquam purus sit amet. Congue quisque egestas diam in arcu.
-              Tincidunt ornare massa eget egestas purus viverra accumsan in
-              nisl. Egestas dui id ornare arcu odio. Dis parturient montes
-              nascetur ridiculus mus. Sem nulla pharetra diam sit amet. Lacus
-              vel facilisis volutpat est velit egestas dui id ornare. Mauris
-              ultrices eros in cursus turpis massa tincidunt. Enim diam
-              vulputate ut pharetra sit. Tellus at urna condimentum mattis
-              pellentesque id nibh. Volutpat est velit egestas dui id ornare
-              arcu.
+              Naruto (Japanese: NARUTOナルト) is a Japanese manga series written
+              and illustrated by Masashi Kishimoto. It tells the story of Naruto
+              Uzumaki, a young ninja who seeks recognition from his peers and
+              dreams of becoming the Hokage, the leader of his village. The
+              story is told in two parts – the first set in Naruto's pre-teen
+              years, and the second in his teens. The series is based on two
+              one-shot manga by Kishimoto: Karakuri (1995), which earned
+              Kishimoto an honorable mention in Shueisha's monthly Hop Step
+              Award the following year, and Naruto (1997).
+            </p>
+            <p>
+              Naruto was serialized in Shueisha's magazine, Weekly Shōnen Jump
+              from 1999 to 2014, and released in tankōbon (book) form in 72
+              volumes. The manga was adapted into an anime television series
+              produced by Pierrot and Aniplex, which broadcast 220 episodes in
+              Japan from 2002 to 2007; the English dub of the series aired on
+              Cartoon Network and YTV from 2005 to 2009. Naruto: Shippuden, a
+              sequel to the original series, premiered in Japan in 2007, and
+              ended in 2017, after 500 episodes. The English dub was broadcast
+              on Disney XD from 2009 to 2011, airing the first 98 episodes, and
+              then switched over to Adult Swim's Toonami programming block in
+              January 2014, starting over from the first episode. The English
+              dub is still airing weekly on Adult Swim to this day. Viz Media
+              began streaming the anime series on their streaming service Neon
+              Alley in December 2012 on 99 episodes, and ended in March 2016,
+              after 338 episodes. Besides the anime series, Pierrot has
+              developed eleven movies and twelve original video animations
+              (OVAs). Other Naruto-related merchandise includes light novels,
+              video games, and trading cards developed by several companies.
             </p>
           </div>
         );
       case 4:
         return (
           <div className={styles.sectionWrapper}>
-            <h1>Anime</h1>
+            <h1>Saint Seiya</h1>
             <p>
-              Vel eros donec ac odio tempor orci. Placerat orci nulla
-              pellentesque dignissim enim sit amet venenatis. Magna ac placerat
-              vestibulum lectus mauris ultrices eros in cursus. Adipiscing elit
-              ut aliquam purus sit amet. Congue quisque egestas diam in arcu.
-              Tincidunt ornare massa eget egestas purus viverra accumsan in
-              nisl. Egestas dui id ornare arcu odio. Dis parturient montes
-              nascetur ridiculus mus. Sem nulla pharetra diam sit amet. Lacus
-              vel facilisis volutpat est velit egestas dui id ornare. Mauris
-              ultrices eros in cursus turpis massa tincidunt. Enim diam
-              vulputate ut pharetra sit. Tellus at urna condimentum mattis
-              pellentesque id nibh. Volutpat est velit egestas dui id ornare
-              arcu.
+              Saint Seiya (Japanese: 聖闘士星矢セイントセイヤ, Hepburn: Seinto
+              Seiya), also known as Saint Seiya: Knights of the Zodiac or simply
+              Knights of the Zodiac (translated from the French title Les
+              Chevaliers du Zodiaque),[5] is a Japanese manga series written and
+              illustrated by Masami Kurumada. It was serialized in Shueisha's
+              shōnen manga magazine Weekly Shōnen Jump from 1986 to 1990, with
+              its chapters collected in twenty-eight tankōbon volumes. The story
+              follows five mystical warriors called the Saints who fight wearing
+              sacred sets of armor named "Cloths", the designs of which derive
+              from the various constellations the characters have adopted as
+              their destined guardian symbols, and empowered by a mystical
+              energy called "Cosmo". The Saints have sworn to defend the
+              reincarnation of the Greek goddess Athena in her battle against
+              other Olympian gods who want to dominate Earth.
+            </p>
+            <p>
+              The manga was adapted by Toei Animation into a 114-episode anime
+              television series which was broadcast on TV Asahi from 1986 to
+              1989. Saint Seiya was later continued with three original video
+              animations released from 2002 to 2008. Four animated feature films
+              premiered in Japanese theaters from 1987 to 1989, with a fifth in
+              2004 and a sixth in 2014. A live-action film adaptation will be
+              released in 2023. Since 2006, Kurumada has been publishing a
+              sequel manga titled Saint Seiya: Next Dimension. Several spin-off
+              manga by different authors have also been created, as well as a
+              standalone anime series and two original net animation series.
             </p>
           </div>
         );
