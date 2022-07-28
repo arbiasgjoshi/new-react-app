@@ -1,0 +1,7 @@
+button{
+    cursor: pointer;
+    &:hover {
+        color: rgb(116, 120, 112);
+        background-color: rgb(176, 176, 176);
+      }
+}

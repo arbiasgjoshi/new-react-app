@@ -1,18 +1,20 @@
+import styles from "./leftNav.module.scss";
+
 const LeftNav = ({ changeSection }) => {
   return (
     <>
-      <nav>
+      <nav className={styles.leftNavWrapper}>
         <button type="button" onClick={() => changeSection(1)}>
-          Section 1
+          Marvel
         </button>
         <button type="button" onClick={() => changeSection(2)}>
-          Section 2
+          DC
         </button>
         <button type="button" onClick={() => changeSection(3)}>
-          Section 3
+          Naruto
         </button>
         <button type="button" onClick={() => changeSection(4)}>
-          Section 4
+          Saint Seiya
         </button>
       </nav>
     </>
