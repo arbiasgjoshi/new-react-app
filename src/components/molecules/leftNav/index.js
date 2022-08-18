@@ -1,9 +1,18 @@
+import { useState } from "react";
 import styles from "./leftNav.module.scss";
 
 const LeftNav = ({ changeSection }) => {
+  const [open, setOpen] = useState(false);
+
   return (
     <>
-      <nav className={styles.leftNavWrapper}>
+      {/* If open is false and we click, open value changes to true and vice versa */}
+      <button className={styles.menuToggler} onClick={() => setOpen(!open)}>
+        <i className={`fa ${open ? "fa-close" : "fa-bars"}`}></i>
+      </button>
+      <nav
+        className={`${styles.leftNavWrapper} ${open ? styles.menuOpened : ""}`}
+      >
         <button type="button" onClick={() => changeSection(1)}>
           Marvel
         </button>

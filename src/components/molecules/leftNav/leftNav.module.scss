@@ -1,7 +1,52 @@
-button{
-    cursor: pointer;
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css");
+
+button {
+  cursor: pointer;
+  &:hover {
+    color: rgb(116, 120, 112);
+    background-color: rgb(176, 176, 176);
+  }
+}
+
+.leftNavWrapper {
+  min-height: 20rem;
+}
+
+.menuToggler {
+  display: none;
+}
+
+@media only screen and (max-width: 900px) {
+  .menuToggler {
+    display: block;
+    border: 0;
+    background-color: transparent;
+    width: 3.2rem;
+    height: 3.2rem;
+    margin-left: auto;
+
+    i {
+      font-size: 2.5rem;
+    }
+
     &:hover {
-        color: rgb(116, 120, 112);
-        background-color: rgb(176, 176, 176);
-      }
+      color: #000;
+      background-color: transparent;
+    }
+  }
+
+  .leftNavWrapper {
+    opacity: 0;
+    height: 0;
+    transition: ease all 0.3s;
+    min-height: 0;
+    overflow: hidden;
+
+    &.menuOpened {
+      height: unset;
+      overflow: unset;
+      opacity: 1;
+      min-height: 20rem;
+    }
+  }
 }

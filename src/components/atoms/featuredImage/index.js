@@ -1,11 +1,12 @@
 import React from "react";
 
-import styles from "./image.module.scss";
 
 import MarvelImage from "./../../../images/marvel.jpeg";
 import DcImage from "./../../../images/dc.avif";
 import NarutoImage from "./../../../images/naruto.png";
 import SaintSeiyaImage from "./../../../images/saintseiya.jpg";
+
+import styles from "./image.module.scss";
 
 const ImageComponent = ({ featuredImage }) => {
   const renderImage = (img) => {
