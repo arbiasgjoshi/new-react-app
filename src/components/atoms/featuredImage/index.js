@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 
 import styles from "./image.module.scss";
 
@@ -8,8 +8,6 @@ import NarutoImage from "./../../../images/naruto.png";
 import SaintSeiyaImage from "./../../../images/saintseiya.jpg";
 
 const ImageComponent = ({ featuredImage }) => {
-  // const [image, setImage] = useState(0);
-
   const renderImage = (img) => {
     if (img === 1) {
       return (
